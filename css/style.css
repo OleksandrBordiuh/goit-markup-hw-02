@@ -1,0 +1,66 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+/* цыет основного текста #757575 */
+/* вторичный цвет #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* адрес в футере rgba(255, 255, 255, 0.6) */
+/* 2020 | Developed by GoIT Students  rgba(255, 255, 255, 0.4) */
+/* вторичный цвет фона #F5F4FA */
+
+/* Logo */
+.logo {
+  color: #212121;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Contacts-nav */
+.contacts-nav .link {
+  color: #757575;
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero .link {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+}
+
+/* advantages */
+.advantages .link:hover,
+.advantages .link:focus {
+  background-color: #2196f3;
+}
