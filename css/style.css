@@ -13,6 +13,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 }
 
 body {
@@ -37,6 +38,11 @@ ul {
 .site-nav .link {
   color: var(--title-text-color);
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -105,7 +111,23 @@ ul {
   color: rgba(255, 255, 255, 0.4);
 }
 
+/* Button */
 .button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Work Examples */
+.work-examples {
+  color: var(--primary-text-color);
+}
+
+.work-examples .text {
+  color: var(--primary-white-color);
+  background-color: rgba(33, 150, 243, 0.9);
 }
