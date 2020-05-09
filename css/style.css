@@ -19,6 +19,11 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -28,6 +33,10 @@ ul {
 /* Logo */
 .logo {
   color: var(--title-text-color);
+  font-family: raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-blue {
@@ -37,6 +46,10 @@ ul {
 /* Site-nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -51,7 +64,12 @@ ul {
 /* Contacts-nav */
 .contacts-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
@@ -60,19 +78,31 @@ ul {
 /* Hero */
 .hero {
   background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
 }
 
 .hero-title {
   color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
-.hero .link {
-  color: var(--primary-white-color);
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Advantages */
@@ -81,16 +111,42 @@ ul {
   background-color: var(--accent-color);
 }
 
+.advantages .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 /* Services */
 .services-name {
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Team */
 .socials:hover,
 .socials:focus {
   background-color: var(--accent-color);
+}
+
+.team .section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /* Footer */
@@ -101,6 +157,9 @@ ul {
 
 .footer .logo {
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
 }
 
 .footer .link {
@@ -109,6 +168,9 @@ ul {
 
 .copyright {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Button */
@@ -122,12 +184,37 @@ ul {
   background-color: var(--accent-color);
 }
 
+/* Portfolio.html */
+
 /* Work Examples */
-.work-examples {
+.project {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
 
-.work-examples .text {
+.project-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .text {
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.filters {
+  text-align: center;
+}
+
+.filters .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
