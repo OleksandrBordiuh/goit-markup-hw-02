@@ -1,44 +1,54 @@
-body {
-  background-color: #ffffff;
-  color: #757575;
-}
-
-ul {
-  list-style: none;
-}
-/* цыет основного текста #757575 */
+/* цвет основного текста #757575 */
 /* вторичный цвет #212121 */
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* адрес в футере rgba(255, 255, 255, 0.6) */
 /* 2020 | Developed by GoIT Students  rgba(255, 255, 255, 0.4) */
 /* вторичный цвет фона #F5F4FA */
+/* бек граунд rgba(47, 48, 58, 0.8) */
+/* футер бек граунд #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
 
 /* Logo */
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Contacts-nav */
 .contacts-nav .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Hero */
@@ -47,20 +57,55 @@ ul {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .hero .link {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* Section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
-/* advantages */
+/* Advantages */
 .advantages .link:hover,
 .advantages .link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
+}
+
+/* Services */
+.services-name {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}
+
+/* Team */
+.socials:hover,
+.socials:focus {
+  background-color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
