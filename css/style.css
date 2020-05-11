@@ -218,3 +218,9 @@ ul {
   line-height: 1.62;
   text-align: center;
 }
+
+.filters .button:hover,
+.filters .button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
